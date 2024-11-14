@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.maximde'
-version = '1.5.3'
+version = '1.5.4'
 
 tasks.withType(JavaCompile).configureEach {
     options.release = 17
@@ -17,7 +17,8 @@ repositories {
         name = "spigotmc-repo"
         url = "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
     }
-    maven { url 'https://repo.codemc.io/repository/maven-releases/' }
+    maven { url = uri("https://repo.codemc.io/repository/maven-releases/") }
+
     maven { url "https://jitpack.io"  }
 }
 
@@ -26,7 +27,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
     compileOnly ("org.spigotmc:spigot-api:1.19.4-R0.1-SNAPSHOT")
-    compileOnly 'com.github.retrooper.packetevents:api:2.2.1'
+    compileOnly("com.github.retrooper:packetevents-spigot:2.6.0")
     implementation "net.kyori:adventure-text-minimessage:4.17.0"
     compileOnly 'com.github.LoneDev6:API-ItemsAdder:3.6.1'
 }
