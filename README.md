@@ -1,5 +1,5 @@
 <div align="center">
-<img width="900px" src="https://github.com/max1mde/ChatBubbles-API/assets/114857048/05d526ac-11aa-4cc2-870e-2fa385f90cee"><br>
+<img width="900px" src="https://github.com/max1mde/ChatBubbles-API/assets/114857048/05d526ac-11aa-4cc2-870e-2fa385f90cee"><br><a href="https://discord.gg/2UTkYj26B4" target="_blank"><img src="https://img.shields.io/badge/Discord_Server-7289DA?style=flat&logo=discord&logoColor=white" alt="Join Discord Server" style="border-radius: 15px; height: 20px;"></a>  
 <a href="https://jitpack.io/#max1mde/ChatBubbles-API">
 <img src="https://jitpack.io/v/max1mde/ChatBubbles-API.svg">
 </a>
